@@ -9,7 +9,7 @@
 namespace Vaind\Id\Generator;
 
 
-interface VainIdGeneratorInterface
+interface IdGeneratorInterface
 {
     /**
      * @return string
