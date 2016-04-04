@@ -10,8 +10,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Vain\\Id\\": "src/"
+        "psr-4": {
+            "Vain\\": "src/"
         }
     },
     "require": {
