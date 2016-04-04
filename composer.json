@@ -11,12 +11,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vain\\": "src/"
+            "Vain\\Id\\": "src/"
         }
     },
     "require": {
         "php": ">=5.6.0",
-        "ext-pdo": "*",
         "ramsey/uuid" : "dev-master"
     },
     "prefer-stable": true,
