@@ -9,9 +9,9 @@
 namespace Vain\Id\Generator\Ramsey;
 
 use Ramsey\Uuid\UuidFactoryInterface;
-use Vaind\Id\Generator\IdGeneratorInterface;
+use Vaind\Id\Generator\GeneratorInterface;
 
-class RamseyIdGenerator implements IdGeneratorInterface
+class RamseyAdapter implements GeneratorInterface
 {
     private $uuidFactoryInstance;
 
