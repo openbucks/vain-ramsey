@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=5.6.0",
-        "ramsey/uuid" : "dev-master"
+        "ramsey/uuid" : "^2"
     },
     "config": {
         "secure-http": false
