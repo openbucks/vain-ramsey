@@ -16,11 +16,18 @@
     },
     "require": {
         "php": ">=5.6.0",
-        "ramsey/uuid" : "^2"
+        "ramsey/uuid" : "^2",
+        "vain/core" : "dev-master"
     },
     "config": {
         "secure-http": false
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "http://gitlab.cosmonova.net.ua/mmjitsu/vain-core.git"
+        }
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
