@@ -1,14 +1,21 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: allflame
- * Date: 3/31/16
- * Time: 10:09 AM
+ * Vain Framework
+ *
+ * PHP Version 7
+ *
+ * @package   vain-id
+ * @license   https://opensource.org/licenses/MIT MIT License
+ * @link      https://github.com/allflame/vain-id
  */
 
-namespace Vaind\Id\Generator;
+namespace Vain\Id\Generator;
 
-
+/**
+ * Interface IdGeneratorInterface
+ *
+ * @author Taras P. Girnyk <taras.p.gyrnik@gmail.com>
+ */
 interface IdGeneratorInterface
 {
     /**

@@ -1,16 +1,24 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: allflame
- * Date: 3/31/16
- * Time: 10:13 AM
+ * Vain Framework
+ *
+ * PHP Version 7
+ *
+ * @package   vain-id
+ * @license   https://opensource.org/licenses/MIT MIT License
+ * @link      https://github.com/allflame/vain-id
  */
 
 namespace Vain\Id\Generator\Ramsey;
 
 use Ramsey\Uuid\UuidFactoryInterface;
-use Vaind\Id\Generator\IdGeneratorInterface;
+use Vain\Id\Generator\IdGeneratorInterface;
 
+/**
+ * Class RamseyAdapter
+ *
+ * @author Taras P. Girnyk <taras.p.gyrnik@gmail.com>
+ */
 class RamseyAdapter implements IdGeneratorInterface
 {
     private $uuidFactoryInstance;
