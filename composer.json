@@ -17,7 +17,7 @@
     "require": {
         "php": ">=5.6.0",
         "ramsey/uuid" : "^2",
-        "vain/core" : "dev-dev"
+        "vain/core" : dev-master
     },
     "config": {
         "secure-http": false
