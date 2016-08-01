@@ -6,5 +6,5 @@ services:
     class: Ramsey\Uuid\UuidFactory
   id.generator.string:
     class: Vain\Id\Generator\Ramsey\RamseyAdapter
-    arguements: ['@ramsey.uuid.factory']
+    arguments: ['@ramsey.uuid.factory']
   id.generator.random.string: '@id.generator.string'
