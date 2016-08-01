@@ -1,3 +1,6 @@
+imports:
+  - { resource: 'vendor/vain/core/config/di.yml' }
+
 services:
   ramsey.uuid.factory:
     class: Ramsey\Uuid\UuidFactory
