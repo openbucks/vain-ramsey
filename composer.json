@@ -5,7 +5,7 @@
         {
             "name": "Taras Girnyk",
             "email": "le@mirohost.net",
-            "homepage": "http://gitlab.cosmonova.net.ua/mmjitsu/vain-id",
+            "homepage": "https://github.com/allflame/vain-id",
             "role": "Maintainer"
         }
     ],
@@ -25,7 +25,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "http://gitlab.cosmonova.net.ua/mmjitsu/vain-core.git"
+            "url": "https://github.com/allflame/vain-core"
         }
     ],
     "prefer-stable": true,
