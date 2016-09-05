@@ -8,6 +8,7 @@
  * @license   https://opensource.org/licenses/MIT MIT License
  * @link      https://github.com/allflame/vain-id
  */
+declare(strict_types=1);
 
 namespace Vain\Id\Generator\Ramsey;
 
@@ -35,8 +36,8 @@ class RamseyAdapter implements IdGeneratorInterface
     /**
      * @inheritDoc
      */
-    public function generate()
+    public function generate() : string
     {
-        return $this->uuidFactoryInstance->uuid4();
+        return $this->uuidFactoryInstance->uuid4()->toString();
     }
 }

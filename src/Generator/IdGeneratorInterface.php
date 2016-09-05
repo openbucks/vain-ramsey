@@ -8,6 +8,7 @@
  * @license   https://opensource.org/licenses/MIT MIT License
  * @link      https://github.com/allflame/vain-id
  */
+declare(strict_types=1);
 
 namespace Vain\Id\Generator;
 
@@ -21,5 +22,5 @@ interface IdGeneratorInterface
     /**
      * @return string
      */
-    public function generate();
+    public function generate() : string;
 }

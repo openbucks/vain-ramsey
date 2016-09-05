@@ -8,6 +8,8 @@
  * @license   https://opensource.org/licenses/MIT MIT License
  * @link      https://github.com/allflame/vain-id
  */
+declare(strict_types=1);
+
 namespace Vain\Id\Extension;
 
 use Vain\Core\Extension\AbstractExtension;
