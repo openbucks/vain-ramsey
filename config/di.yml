@@ -4,4 +4,5 @@ services:
   id.generator.string:
     class: Vain\Id\Generator\Ramsey\RamseyAdapter
     arguments: ['@ramsey.uuid.factory']
-  id.generator.string.random: '@id.generator.string'
+  id.generator.string.random:
+    alias: id.generator.string
