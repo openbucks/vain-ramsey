@@ -20,7 +20,7 @@ use Vain\Core\Id\Generator\AbstractIdGenerator;
  *
  * @author Taras P. Girnyk <taras.p.gyrnik@gmail.com>
  */
-class RamseyIdGenerator extends AbstractIdGenerator implements IdGeneratorInterface
+class RamseyIdGenerator extends AbstractIdGenerator
 {
     private $uuidFactoryInstance;
 
