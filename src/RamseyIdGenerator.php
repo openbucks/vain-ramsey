@@ -10,17 +10,17 @@
  */
 declare(strict_types = 1);
 
-namespace Vain\Id\Generator\Ramsey;
+namespace Vain\Ramsey;
 
 use Ramsey\Uuid\UuidFactoryInterface;
 use Vain\Core\Id\Generator\AbstractIdGenerator;
 
 /**
- * Class RamseyAdapter
+ * Class RamseyIdGenerator
  *
  * @author Taras P. Girnyk <taras.p.gyrnik@gmail.com>
  */
-class RamseyAdapter extends AbstractIdGenerator
+class RamseyIdGenerator extends AbstractIdGenerator
 {
     private $uuidFactoryInstance;
 
