@@ -10,15 +10,15 @@
  */
 declare(strict_types = 1);
 
-namespace Vain\Id\Extension;
+namespace Vain\Ramsey\Extension;
 
 use Vain\Core\Extension\AbstractExtension;
 
 /**
- * Class IdExtension
+ * Class RamseyExtension
  *
  * @author Taras P. Girnyk <taras.p.gyrnik@gmail.com>
  */
-class IdExtension extends AbstractExtension
+class RamseyExtension extends AbstractExtension
 {
 }

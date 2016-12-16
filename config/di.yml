@@ -2,7 +2,7 @@ services:
   ramsey.uuid.factory:
     class: Ramsey\Uuid\UuidFactory
   id.generator.string:
-    class: Vain\Id\Generator\Ramsey\RamseyAdapter
+    class: Vain\Ramsey\RamseyIdGenerator
     arguments: ['@ramsey.uuid.factory']
   id.generator.string.random:
     alias: id.generator.string
