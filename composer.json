@@ -1,11 +1,11 @@
 {
-    "name": "vain/id",
+    "name": "vain/ramsey",
     "type": "shared-package",
     "authors": [
         {
             "name": "Taras Girnyk",
             "email": "taras.p.gyrnik@gmail.com",
-            "homepage": "https://github.com/allflame/vain-id",
+            "homepage": "https://github.com/allflame/vain-ramsey",
             "role": "Maintainer"
         }
     ],
