@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vain\\Id\\": "src/"
+            "Vain\\Ramsey\\": "src/"
         }
     },
     "require": {
