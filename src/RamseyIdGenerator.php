@@ -14,7 +14,6 @@ namespace Vain\Ramsey;
 
 use Ramsey\Uuid\UuidFactoryInterface;
 use Vain\Core\Id\Generator\AbstractIdGenerator;
-use Vain\Core\Id\Generator\IdGeneratorInterface;
 
 /**
  * Class RamseyIdGenerator
