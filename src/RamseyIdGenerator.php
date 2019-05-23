@@ -39,6 +39,6 @@ class RamseyIdGenerator extends AbstractIdGenerator
      */
     public function generate() : string
     {
-        return $this->uuidFactoryInstance->uuid4()->toString();
+        return (string)$this->uuidFactoryInstance->uuid4();
     }
 }
